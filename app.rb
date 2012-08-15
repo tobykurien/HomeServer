@@ -57,7 +57,7 @@ def post_cosm(feed_id, json_data)
       http = Net::HTTP.new('api.cosm.com', 80)
       response = ""
       http.start do |http|
-        req = Net::HTTP::Put.new("/v2/feeds/#{feed_id}", {'X-ApiKey' => '3QXRsL5yUxn5KF3mGPlmsO2JFYOSAKxZQWpRV1pPTnFaVT0g'})
+        req = Net::HTTP::Put.new("/v2/feeds/#{feed_id}", {'X-ApiKey' => '...'})
         req.body = json_data
         resp = http.request(req)
         response = resp.body
