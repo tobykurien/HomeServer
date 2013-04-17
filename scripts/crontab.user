@@ -1,0 +1,3 @@
+00 00 * * * /bin/sh /home/eeepc/downloads_start.sh
+00 08 * * * /bin/sh /home/eeepc/downloads_stop.sh
+

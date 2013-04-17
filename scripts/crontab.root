@@ -1,0 +1,3 @@
+*/15 * * * * root sync && echo 3 > /proc/sys/vm/drop_caches
+*/1 * * * * /home/eeepc/www/home_server/scripts/low_battery.rb
+
